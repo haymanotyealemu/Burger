@@ -1,5 +1,3 @@
-const { post } = require("../../../controllers/burgers_controller");
-
 $(function(){
     $(".create-form").on("submit", function(event){
         event.preventDefault();

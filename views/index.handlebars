@@ -1,16 +1,52 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-6">
-            <img src="/public/assets/img/burger.jpg">
-            <h1>Eat-Da-Burger!</h1>
+            <div class="card">
+                <img src="/public/assets/img/hamburger.png" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Eat Da Burger!</h2>
+                </div>
+            </div>
         </div>
-        <form class="create-form">
-            <textarea type="text" id="newburger" name="burger"></textarea>
-            <button class="btn btn-primary" type="submit">submit</button>
-            <p>Enter a Burger You want to eat Click the "Submit" button</p>
-        </form>
-
-        
-        
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <ul>
+                        {{#each burgers}}
+                            {{#unless devoured}}
+                                <li>
+                                    {{this.id}}. {{this.burger_name}}
+                                    <button type="button" class="eatburger btn btn-light" data-id="{{id}}">Devour it</button>
+                                </li>
+                            {{/unless}}
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <form class="create-form">
+                <textarea type="text" id="newburger" name="burger"></textarea>
+                <button class="btn btn-primary" type="submit">submit</button>
+                <p>Enter a Burger You want to eat Click the "Submit" button</p>
+            </form>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <ul>
+                        {{#each burgers}}
+                            {{#if devoured}}
+                                <li>
+                                    {{burger_name}}
+                                </li>
+                            {{/if}}
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
