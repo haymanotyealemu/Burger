@@ -1,0 +1,24 @@
+body{
+    background-color: #ffa500;
+}
+.container{
+    width: 50vw;
+}
+#left-side{
+    text-align: center;
+}
+#right-side{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.form-group { 
+    margin: 0 auto; 
+    width:300px;
+    text-align: center;
+    }
