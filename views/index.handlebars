@@ -7,29 +7,33 @@
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <div class="panel panel-default" id="left-side">
-                <div class="panel-body">
-                    <ul>
+            <div class="panel panel-default">
+                <div class="panel-body" >
+                    <ol>
                         {{#each burgers}}
                             {{#unless devoured}}
-                                
-                                {{this.id}}-{{this.burger_name}}<span><button type="button" class="eatburger btn btn-light btn-sm font-italic" data-id="{{id}}" >Devour it</button></span>
+                                <li>
+                                    {{burger_name}}
+                                    <button type="button" class="btn btn-success btn-sm font-italic m-1" data-id="{{id}}">Devour it</button>
+                                </li>
                             {{/unless}}
                         {{/each}}
-                    </ul>
+                    </ol>
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="panel panel-default" id="right-side">
-                <div class="panel-body">
-                    <ul>
+            <div class="panel panel-default">
+                <div class="panel-body" >
+                    <ol>
                         {{#each burgers}}
                             {{#if devoured}}
-                                <span>{{this.id}}-{{this.burger_name}}</span>
+                            <li>
+                                <span>{{burger_name}}</span>
+                            </li>
                             {{/if}}
                         {{/each}}
-                    </ul>
+                    </ol>
                 </div>
             </div>
         </div>

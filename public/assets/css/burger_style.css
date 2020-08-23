@@ -1,9 +1,10 @@
 body{
     background-color: #ffa500;
+    font-size: 18px;
 }
-.container{
+/* .container{
     width: 50vw;
-}
+} */
 #left-side{
     text-align: center;
 }
@@ -19,6 +20,6 @@ body{
 
 .form-group { 
     margin: 0 auto; 
-    width:300px;
+    width:400px;
     text-align: center;
     }
