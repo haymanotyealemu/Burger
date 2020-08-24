@@ -1,5 +1,5 @@
 # EAT DA BURGER!  (Node Express Handlebars)
-![Made by@](https://img.shields.io/badge/License-haymanot-brightgreen.svg)
+![Madeby](https://img.shields.io/badge/MadeBy-haymanot-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-none-blue.svg)
 
 ## Description
