@@ -10,8 +10,8 @@ The application is deployed on Heroku. You can run the application from the foll
     
 ## Usage
 * When the users visits the page for the first  time, they see a form where they can submit new burgers to be listed on the left side of the page until to be devoured or waiting to be devoured and list of burgers that are devoured if-any on the right side of the page.
-![image1](https://drive.google.com/uc?export=view&id=1OOi72mYF4fUeIAtvZA27kLdHw4U68nN-)
-* When user submits any kind of burger namen in the user input area and hit the `Submit` button,he will see it on the left side of the page to be devoured.
+![image1](https://drive.google.com/uc?export=view&id=1Qfil8gxjNpYxeU2E-ZCKsn1PbAzpdFJe)
+* When user submits any kind of burger name in the user input area and hit the `Submit` button,he will see it on the left side of the page to be devoured.
 ![image2](https://drive.google.com/uc?export=view&id=1Qfil8gxjNpYxeU2E-ZCKsn1PbAzpdFJe)
 * When user wants to eat one of the listed Burgers, he needs to click on the `Devour it` button appended to each one of the burger lists. once the button is clicked, that burger will be listed on the right side of the page.
 ![image3](https://drive.google.com/uc?export=view&id=1Q6xjv8ak_wvkw4yB4PJa8NaMHfXLZEvE)
